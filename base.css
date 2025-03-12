@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+    font-family: Monocraft;
+    src: url(./font/Monocraft.ttf);
+}
+
+main{
+    margin: 0;
+   
+}
+body{
+    margin: 0;
+    background-image: url(./background/OverworldBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgb(0, 0, 0);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Monocraft';
+}
+h1{
+    color: white;
+}
+
+
+.BoutonMinecraft {
+    font-family: 'Monocraft';
+    font-size: 20px;
+    color: white;
+    background: #747373d2;
+    border: 2px solid #626060;
+    box-shadow: 2px 2px 2px #000000;
+    padding: 12px 24px;
+    text-align: center;
+    width: -webkit-fill-available;
+    text-decoration: none;
+}
+
+
+.BoutonMinecraft:hover {
+    background: #AFAFAF;
+}
+.lineone{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.linetwo{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.mainbutton{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+       
+
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    backdrop-filter: blur(5px);
+    
+}
+
+#EnchantedBook{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-left: 9px;
+    padding-top: 8px;
+}
+#bookimg{
+    width: 33px;
+}
+#Tools{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-left: 7px;
+}
+#Pickaxeimg{
+    width: 33px;
+    
+}
+#Armor{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-left: 7px;
+}
+#Armorimg{
+    width: 33px;
+}
+#Block{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-left: 7px;
+}
+#Blockimg{
+    width: 33px;
+}
+#Head{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-left: 7px;
+}
+#Headimg{
+    width: 33px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+    background-color: rgb(200, 194, 194);
+
+    padding: 2px;
+    width: max-content;
+}
+
+.cell {
+    background-color: #868282;
+    -webkit-box-shadow: inset 5px 5px 3px -4px #000000; 
+    box-shadow: inset 5px 5px 3px -4px #000000;
+    width: 38px;
+    height: 38px;
+}
+.btndiv{
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+    border: none;
+    padding: initial;
+}
+.nether{
+    position: absolute;
+    right: 5rem;
+    
+
+}
+.imgnether{
+    width: 50%;
+}
+.btnnether{
+    background-color: transparent;
+    border: none;
+}
+.end {
+    position: absolute;
+    left: 5rem;
+}
+
+.btnend{
+    background: none;
+    border: none;
+    
+}
